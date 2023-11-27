@@ -4,6 +4,19 @@ let width = document.getElementById('width').value
 let display = document.getElementById('output')
 
 
+
+
+
+
+function area(a,b) {
+    let sum = 1/2*(a*b);
+    display.innerText = sum
+}
+
+
+
+
+
 btnArea.addEventListener('click',function(){
 
     let height = document.getElementById('height').value
@@ -12,7 +25,9 @@ btnArea.addEventListener('click',function(){
 })
 
 
-function area(a,b) {
-    let sum = 1/2*(a*b);
-    display.innerText = sum
-}
+
+
+
+
+
+
